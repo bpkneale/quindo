@@ -1,0 +1,15 @@
+{
+    "quindoaws": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-quindo-quindoaws-90922-authRole",
+            "UnauthRoleArn": "arn:aws:iam::531181023012:role/amplify-quindo-quindoaws-90922-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::531181023012:role/amplify-quindo-quindoaws-90922-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-quindo-quindoaws-90922-deployment",
+            "UnauthRoleName": "amplify-quindo-quindoaws-90922-unauthRole",
+            "StackName": "amplify-quindo-quindoaws-90922",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:531181023012:stack/amplify-quindo-quindoaws-90922/a5343b50-4a0f-11ea-bc13-06d8fa8d4244",
+            "AmplifyAppId": "d1a5qwh7p4f7qx"
+        }
+    }
+}
