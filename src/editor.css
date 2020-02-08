@@ -1,0 +1,52 @@
+
+.imgbox {
+    display: grid;
+    height: 80%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 80vh;
+    margin: auto;
+}
+.click-circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px dashed purple;
+    background-color: white;
+    background-blend-mode: color-dodge;
+}
+
+.persistent-reference {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: white;
+}
+
+.persistent-reference:hover > .persistent-tooltip {
+    display: block;
+}
+
+.persistent-tooltip {
+    padding: 10px;
+    position: relative;
+    width: fit-content;
+    top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    display: none;
+}
+
+.reference-input {
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+}
+.reference-input > label {
+    padding: 5px;
+}
